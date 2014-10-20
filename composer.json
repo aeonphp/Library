@@ -1,10 +1,19 @@
 {
-    "name": "aeon/library",
+    "name": "Aeon/Library",
     "authors": [
         {
             "name": "Daniel Heath",
             "email": "danielowenheath@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+
+
+    },
+    "autoload": {
+        "psr-4": 
+        	{
+            	"Aeon\\Library\\": "vendor/Aeon/Library"
+        	}
+    }
 }
